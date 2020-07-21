@@ -24,7 +24,7 @@
                 <div id="employee_name">
                 <c:out value="${sessionScope.login_employee.name}"/>
                 &nbsp;さん&nbsp;&nbsp;&nbsp;
-                <a href="<c:url value='/logpout'/>">ログアウト</a>
+                <a href="<c:url value='/logout'/>">ログアウト</a>
                </div>
             </c:if>
             </div>
